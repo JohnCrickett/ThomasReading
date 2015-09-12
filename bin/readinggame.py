@@ -54,10 +54,10 @@ pygame.mixer.pre_init(freq, bitsize, channels, buffer)
 pygame.init()
 pygame.mixer.init()
 print(os.getcwd())
-awesome = pygame.mixer.Sound("awesome.ogg")
-pants = pygame.mixer.Sound("pants.ogg")
-sun = pygame.mixer.Sound("cool.ogg")
-duplon = pygame.mixer.Sound("duplon.ogg")
+awesome = pygame.mixer.Sound("resources/awesome.ogg")
+pants = pygame.mixer.Sound("resources/pants.ogg")
+sun = pygame.mixer.Sound("resources/cool.ogg")
+duplon = pygame.mixer.Sound("resources/duplon.ogg")
 
 size = width, height = 1280,960
 speed = [2, 2]
