@@ -1,2 +1,0 @@
-# ThomasReading
-Thomas' Reading Game
