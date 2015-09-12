@@ -40,7 +40,7 @@ words_count = words_end - words_start
 print("Reading %s words from %s to %s" % (words_count, words_start, words_end))
 
 words = []
-with open('words.txt') as word_file:
+with open('resources/words.txt') as word_file:
     words = word_file.read().splitlines()
 
 words = words[words_start:words_end]
